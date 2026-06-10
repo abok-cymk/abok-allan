@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend Engineer Portfolio - Building fast, accessible, and scalable web applications." />
+    <title>Allan Abok</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+    href="https://fonts.googleapis.com/css2family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/abok-allan/assets/index-BfeJQF6q.js"></script>
+    <link rel="stylesheet" crossorigin href="/abok-allan/assets/index-DV2ORqyd.css">
+  </head>
+  <!-- Prevent flash of wrong theme by checking localStorage before React loads -->
+  <script>
+    ;(function () {
+      const saved = localStorage.getItem('theme')
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark')
+      }
+    })()
+  </script>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
