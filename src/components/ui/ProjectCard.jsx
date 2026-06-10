@@ -35,7 +35,7 @@ export function ProjectCard({ project }) {
 
                     {demoUrl && (
                         <a
-                            href={liveUrl}
+                            href={demoUrl}
                             target='_blank'
                             rel='noopener noreferrer'
                             aria-label={`${title} demo URL`}
