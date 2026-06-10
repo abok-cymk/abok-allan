@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react'
+import { FolderGit } from 'lucide-react'
 import { Tag } from './Tag'
 
 export function ProjectCard({ project }) {
@@ -29,7 +29,7 @@ export function ProjectCard({ project }) {
                             title='Source'
                             className='hover:text-accent transition-colors text-base leading-none'
                         >
-                            <ArrowUpRight />
+                            <FolderGit size={18} />
                         </a>
                     )}
 
